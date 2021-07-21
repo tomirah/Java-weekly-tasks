@@ -1,5 +1,4 @@
-package viikko2;
-
+package assignment2;
 
 public class Dog {
 	private String name;
@@ -8,8 +7,12 @@ public class Dog {
 		name = s;
 		System.out.println("Hey, my name is "+name+"!");
 	}
-	public void speak(String x) {
+	public void speak(String x,s) {
 		sentence = x;
-				System.out.println(x);
+		name = s;
+				System.out.println(name+":"+x);
+	}
+	public String getName() {
+		return name;
 	}
 }
