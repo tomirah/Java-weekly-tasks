@@ -26,7 +26,7 @@ public class Dog {
         }
         sentence = s;
         if (sentence.trim().isEmpty()){
-            sentence = "Much wow!";
+            sentence = "Much Wow!";
         }*/
         System.out.print(name+": "+sentence);
         
