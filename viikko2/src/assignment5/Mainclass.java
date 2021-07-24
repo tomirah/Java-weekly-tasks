@@ -12,7 +12,7 @@ public class Mainclass
 		/*Dog dog2 = new Dog();
 		dog1.setName("Rekku");
 		dog2.setName("Musti");
-		dog1.speak("Hau!");*/
+		dog1.speak("Hau");*/
 		System.out.print("What does a dog say: ");
 		dog.speak();
 	}
