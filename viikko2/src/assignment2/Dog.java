@@ -1,16 +1,16 @@
 package assignment2;
 
+
 public class Dog {
-	private String name;
+	private String name = "doggo";
 	private String sentence;
 	public void setName(String s) {
 		name = s;
 		System.out.println("Hey, my name is "+name+"!");
 	}
-	public void speak(String x,s) {
+	public void speak(String x) {
 		sentence = x;
-		name = s;
-				System.out.println(name+":"+x);
+				System.out.println(x);
 	}
 	public String getName() {
 		return name;
