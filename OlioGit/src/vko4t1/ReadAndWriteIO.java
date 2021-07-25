@@ -20,7 +20,7 @@ public class ReadAndWriteIO{
        //Scanner sc = new Scanner("testi.txt");
         //System.out.println(sc.nextLine());
         try {
-            BufferedReader br = new BufferedReader(new FileReader("testi.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("input.txt"));
             String s="";
             while ((s= br.readLine()) != null)
                 System.out.println(s);
